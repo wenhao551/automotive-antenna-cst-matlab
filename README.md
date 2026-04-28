@@ -31,11 +31,6 @@ scenario_simulation/
     These include front/rear arrays, side arrays, target vehicles, bicycles,
     shadow effects, and blind region analysis.
 
-figures/
-    MATLAB output figures used for checking simulation results
-    and supporting the report analysis.
-```
-
 ## Required Software
 
 The code was developed using MATLAB.
