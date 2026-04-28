@@ -30,6 +30,7 @@ scenario_simulation/
     Representative automotive radar scenario simulation scripts used in Chapter 5.
     These include front/rear arrays, side arrays, target vehicles, bicycles,
     shadow effects, and blind region analysis.
+```
 
 ## Required Software
 
@@ -50,15 +51,6 @@ SQU_Gain_Theta25.xlsx
 CIR_Gain_Phi90.xlsx
 HEX_Gain_Phi0.xlsx
 ```
-
-Each CST-exported gain file should follow the basic format below:
-
-```text
-Column 1: Theta [deg]
-Column 2: Phi [deg]
-Column 3: Gain or directivity [dBi]
-```
-
 In MATLAB, these data are read and filtered to obtain the corresponding selected cut-plane data. The gain values are then converted from dBi to linear scale, and an interpolation method is used to construct an element gain function. This allows the element gain to be estimated at different observation angles.
 
 ## How to Run the Code
